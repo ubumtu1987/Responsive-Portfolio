@@ -1,0 +1,647 @@
+/**
+ * Float Layout Activity 
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+
+}
+
+
+section {
+
+}
+
+#Contact-Form{
+
+
+}
+
+
+
+.header {
+    position:relative;
+    height :80px;
+    background:#ffffff;
+    width:100%;
+    z-index:1; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-20px;
+    border-bottom-style: solid;
+    border-color:#cccccc;
+}
+
+
+
+
+
+#titleCon{
+ text-align:left;
+ color: #4aaaa5;
+ size:100px;
+ height:60px;
+ border-bottom:solid;
+ border-bottom-color: grey;
+ width :80%;
+ margin-top :3%;
+ margin-right:10%;
+ margin-left:10%;
+ font-weight: bold;
+ font-size: 30px;
+}
+
+
+#name1{
+ text-align:left
+ width :80%;
+ margin-right:10%;
+ margin-left:10%;
+
+}
+
+
+
+.submit{
+float: left;
+clear: left;
+width: 100px;
+margin-right: 1em;
+text-align: left;
+margin-left:10%;
+
+
+}
+
+.left { 
+ position:relative;
+ text-align :center;
+ justify-content: center ;
+ height:60px;
+ background: #4aaaa5;
+ width: 20%;
+ float:left;
+ margin-top: 17.5px;
+ margin-left: 2rem;
+ z-index:2;
+}
+
+.aboutme{
+   float:left;
+   clear:left;
+   margin-top:50px;
+   margin-left:2rem;
+   min-height:40rem;
+   width:40rem;
+   background: white;
+ }
+
+.hword{
+
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+.middle {
+  position:relative;
+ text-decoration :none;
+ color:black;
+ float:right;
+ margin-top:40px;
+ margin-right:100px;
+ background: #ffffff;
+ width: 7%;
+ background :none;
+ border:none;
+ padding :0;
+ z-index:2;
+}
+
+
+.right {
+ position:relative; 
+text-decoration :none;
+ color:black;
+ float:right;
+ margin-top:40px;
+ background: #ffffff;
+ width: 7%;
+ background :none;
+ border:none;
+ padding :0;
+ z-index:2;
+}
+
+.good {
+  position:relative;
+ text-decoration :none;
+ color:black;
+ float:right;
+ margin-top:40px;
+ background: #ffffff;
+ width: 7%;
+ background :none;
+ border:none;
+ padding :0;
+ z-index:2;
+}
+
+
+
+
+
+
+.link{
+   float:left;
+   margin-top:50px;
+   margin-left:80px;
+   height:200px;
+   width:200px;
+   background: white;
+   
+ }
+
+ .lint{
+  font-weight: bold;
+  color: #4aaaa5;
+  font-size: 20px;
+
+ }
+
+
+.k{
+  text-align:center;
+  color:green;
+  size:100px;
+  height:60px;
+  border-bottom:solid;
+  border-bottom-color: grey;
+  width :80%;
+  margin-right:10%;
+  margin-left:10%;
+ height:30;
+ 
+
+}
+
+.cat{
+  float:left;
+  background: green;
+  margin-top:10%;
+  margin-left : 7%;
+  width: 24%;
+  height:24%;
+}
+.cat img{
+  width :100%;
+  height :100%;
+}
+
+.lin{
+
+  float:left;
+  margin-top:10%;
+  background: orange;
+  margin-left : 7%;
+  width: 24%;
+  height:24%;
+}
+.lin img{
+  width :100%;
+  height :100%;
+}
+
+
+.other{
+  float:left;
+  background: blue;
+  width: 20%;
+  height:20%;
+}
+
+
+.name1{
+float: left;
+width: 10em;
+margin-right: 1em;
+text-align: left;
+margin-left:10%;
+}
+
+
+.email{
+float: left;
+clear: left;
+width: 10em;
+margin-right: 1em;
+text-align: left;
+margin-left:10%;
+}
+
+.message{
+float: left;
+clear: left;
+width: 200px;
+margin-right: 1em;
+text-align: left;
+margin-left:10%;
+}
+
+.text{
+
+  text-align: left;
+
+}
+
+#myinfo{
+  float:left;
+  margin-left:10%;
+  margin-top:5%;
+}
+
+#myinfo img{
+  
+  width:10rem;
+  height:18rem;
+
+}
+
+#explain{
+  float:left;
+  margin-left:1rem;
+  margin-top:5%;
+  text-align:left;
+  width:19rem;
+  height:20rem;
+  
+
+}
+
+
+#port{
+  float:left;
+  margin-left:10%;
+  margin-top:5%;
+  width:35%;
+  height:30%;
+}
+
+
+#port img{
+  width:100%;
+  height:100%;
+
+}
+
+#com{
+  position: relative;
+  bottom: 60%;
+  width:100%;
+  height:30%;
+  background-color:#4aaaa5;
+  color:white;
+  font-size:30px;
+}
+
+
+.empty{
+ clear:left;
+ padding-top:5rem;
+
+
+}
+
+
+footer {
+  position:fixed;
+  
+  bottom:-10px;
+  margin-left:auto;
+  margin-right:auto;
+  height:60px;
+  background:#666666 ;
+  border-top-style:solid;
+  border-color:#4aaaa5;
+  font-size:10px;
+  color:white;
+  padding-top: .9rem;
+  width:960px;
+}
+
+
+
+.container{
+ margin-left:auto;
+ margin-right:auto;
+ width:960px;
+
+
+
+}
+
+
+
+
+.m1{
+
+
+
+
+
+}
+
+
+
+#portS{
+  float:left;
+  margin-left:10%;
+  margin-top:5%;
+  width:35%;
+  height:15rem;
+}
+
+
+#portS img{
+  width:100%;
+  height:100%;
+
+}
+
+
+#comS{
+  position: relative;
+  bottom: 50%;
+  width:100%;
+  height:30%;
+  background-color:#4aaaa5;
+  color:white;
+  font-size:30px;
+}
+
+
+
+@media screen and ( max-width: 768px ) {
+
+
+.container{
+
+  margin-left:auto;
+  margin-right:auto;
+
+  width:768px;
+
+}
+
+
+
+.aboutme{
+   margin-top:50px;
+   margin-left:1rem;
+   min-height:50rem;
+   width:25rem;
+   background: white;
+ }
+
+
+.link{
+   float:left;
+   margin-top:30px;
+   margin-left:70px;
+   height:150px;
+   width:100px;
+   background: white;
+   
+ }
+
+
+
+
+#myinfo img{
+  
+  width:5rem;
+  height:10rem;
+
+}
+
+
+footer{
+  width:768px;
+
+}
+
+.resize1{
+ width:6rem;
+
+
+}
+
+.hword{
+
+  font-size:20px;
+}
+
+
+
+.good{
+  
+  font-size:12px;
+}
+.right{
+  
+  font-size:12px;
+}
+
+
+.middle{
+  
+  font-size:12px;
+}
+
+
+#explain{
+  text-align:left;
+  width:11rem;
+}
+
+
+.link{
+  
+  margin:left:-2rem;
+  margin-top:3rem;
+}
+
+
+.total{
+
+  margin-left:3rem;
+}
+
+
+.text{
+   
+    width:20rem;
+}
+
+#portS{
+ 
+  height:12rem;
+}
+
+
+
+
+}
+
+@media screen and ( max-width: 640px ) {
+
+
+.container{
+
+  margin-left:auto;
+  margin-right:auto;
+
+  width:640px;
+
+}
+
+
+
+.aboutme{
+   margin-top:50px;
+   margin-left:1rem;
+   min-height:50rem;
+   width:22rem;
+   background: white;
+ }
+
+
+.link{
+   float:left;
+   margin-top:30px;
+   margin-left:70px;
+   height:150px;
+   width:80px;
+   background: white;
+   
+ }
+
+
+
+
+#myinfo img{
+  
+  width:5rem;
+  height:8rem;
+
+}
+
+
+footer{
+  width:640px;
+
+}
+
+.resize1{
+ width:6rem;
+
+
+}
+
+.hword{
+
+  font-size:15px;
+}
+
+.middle {
+  position:relative;
+ text-decoration :none;
+ color:black;
+ float:right;
+ margin-top:40px;
+ margin-right:15rem;
+ background: #ffffff;
+ width: 7%;
+ background :none;
+ border:none;
+ padding :0;
+ z-index:2;
+}
+
+
+.right {
+
+ position:relative; 
+ text-decoration :none;
+ color:black;
+ float:right;
+ margin-top:40px;
+ background: #ffffff;
+ width: 7%;
+ background :none;
+ border:none;
+ padding :0;
+ z-index:2;
+ margin-left:-1%;
+}
+
+.good {
+  position:relative;
+ text-decoration :none;
+ color:black;
+ float:right;
+ margin-top:40px;
+ background: #ffffff;
+ width: 7%;
+ background :none;
+ border:none;
+ padding :0;
+ z-index:2;
+ 
+}
+
+
+
+
+
+#explain{
+  clear:left;
+  margin-left:2rem;
+  text-align:left;
+  width:15rem;
+}
+
+
+.total{
+
+  margin-left:3rem;
+}
+
+.lint{
+
+  font-size:13px;
+}
+
+.link{
+  clear:left;
+  margin:left:-2rem;
+}
+
+
+.text{
+   
+    width:15rem;
+}
+
+
+#portS{
+ 
+  height:8rem;
+}
+
+
+}
